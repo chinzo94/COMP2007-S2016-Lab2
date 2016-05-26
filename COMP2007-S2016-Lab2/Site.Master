@@ -1,7 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP2007_S2016_Lab2.Site" %>
+<<%@ Register Src="~/User_Controls/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
 
 <!DOCTYPE html>
-
 <html>
 <head runat="server">
     <meta charset="utf-8">
@@ -20,6 +20,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+    <bs3:Navbar runat="server" ID="PrimaryNav"></bs3:Navbar>
     <div>
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
