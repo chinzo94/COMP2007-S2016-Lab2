@@ -13,5 +13,11 @@ namespace COMP2007_S2016_Lab2
         {
 
         }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            //Placeholder for working code that sends email
+            Response.Redirect("Default.aspx");
+        }
     }
 }
